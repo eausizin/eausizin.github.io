@@ -12,22 +12,79 @@
       box-sizing: border-box;
     }
 
-    div {
+    body {
+      background: conic-gradient(
+        #5d2987 0deg 10deg,
+        #962986 10deg 20deg,
+        #c92883 20deg 30deg,
+        #5d2987 30deg 40deg,
+        #962986 40deg 50deg,
+        #c92883 50deg 60deg,
+        #5d2987 60deg 70deg,
+        #962986 70deg 80deg,
+        #c92883 80deg 90deg,
+        #5d2987 90deg 100deg,
+        #962986 100deg 110deg,
+        #c92883 110deg 120deg,
+        #5d2987 120deg 130deg,
+        #962986 130deg 140deg,
+        #c92883 140deg 150deg,
+        #5d2987 150deg 160deg,
+        #962986 160deg 170deg,
+        #c92883 170deg 180deg,
+        #5d2987 180deg 190deg,
+        #962986 190deg 200deg,
+        #c92883 200deg 210deg,
+        #5d2987 210deg 220deg,
+        #962986 220deg 230deg,
+        #c92883 230deg 240deg,
+        #5d2987 240deg 250deg,
+        #962986 250deg 260deg,
+        #c92883 260deg 270deg,
+        #5d2987 270deg 280deg,
+        #962986 280deg 290deg,
+        #c92883 290deg 300deg,
+        #5d2987 300deg 310deg,
+        #962986 310deg 320deg,
+        #c92883 320deg 330deg,
+        #5d2987 330deg 340deg,
+        #962986 340deg 350deg,
+        #c92883 350deg 360deg
+        );
+    }
+
+    #container {
       width: 100vw;
       height: 100vh;
+      
+      font-size: 9vw;
       font-weight: 900;
-      font-size: 4.30vw;
-      letter-spacing: 0.43vw;
+      letter-spacing: 1vw;
+
+      color: #ffffff;
+      text-align: center;
+      font-family: sans-serif;
+
       display: flex;
-      font-family: serif;
-      align-items: center;
       justify-content: center;
+      align-items: center;
+    }
+
+    #address {
+      font-size: 1vw;
+      letter-spacing: 0.5vw;
     }
   </style>
 </head>
 
 <body>
-  <div>HTTP://KAWAII.MONSTER/</div>
+  <div id="container">
+    <div id="contents">
+      <div>KAWAII</div>
+      <div>MONSTER</div>
+      <div id="address">HTTP://KAWAII.MONSTER/</div>
+    </div>
+  </div>
 </body>
 
 </html>
