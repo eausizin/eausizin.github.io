@@ -5,10 +5,6 @@
   font-family: sans-serif;
 }
 
-body {
-  background-image: url(https://pachikuri.jp/wp-content/themes/pachikuri/img/pattern_stripe_gray.png);
-}
-
 a {
   width: 100%;
   padding: 10px;
@@ -78,11 +74,21 @@ ul {
   font-size: 15px;
   border-radius: 10px;
   line-height: 15px;
-  background-color: white;
-  border: 1px solid #99d8e6;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  background-color: #5bc1d7;
+  border: 1px solid #5bc1d7;
 }
 
-.page:hover {
+.all:hover {
   transition: 0.5s;
-  background-color: #99d8e6;
+  color: #5bc1d7;
+  background-color: white;
+}
+
+.none {
+  background-color: #dddddd;
+  border: 1px solid #dddddd;
+  pointer-events: none;
 }
