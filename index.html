@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="2;url=https://kawaii.monster/kuma1.html" >
   <title>目次</title>
   <style>
     * {
@@ -12,7 +13,7 @@
       box-sizing: border-box;
     }
 
-    div {
+    body {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -21,15 +22,44 @@
       background-image: url(https://pachikuri.jp/wp-content/themes/pachikuri/img/pattern_stripe_gray.png);
     }
 
-    img {
+    .anime {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 330px;
+      height: 330px;
+      background-image: conic-gradient(#ffe33a 0deg, transparent 0deg);
+      border-radius: 330px;
+    }
+
+    .logo {
       width: 300px;
-      border-radius: 50%;
+      height: 300px;
+      background-image: url(https://www.san-x.co.jp/manage/archive/1004_rilanowa_blog_top.jpg);
+      background-size: 110%;
+      background-position: center;
+      border-radius: 300px;
     }
   </style>
 </head>
 
 <body>
-  <div><a href="kuma1.html"><img src="https://www.san-x.co.jp/manage/archive/1004_rilanowa_blog_top.jpg" alt=""></a></div>
+  <div class="anime">
+    <div class="logo"><a href="kuma1.html"></a></div>
+  </div>
+
+  <script>
+    const anime = document.querySelector(".anime");
+    let angle = 0;
+
+    function draw() {
+      if (angle < 360) {
+        angle += 1;
+        anime.style.backgroundImage = `conic-gradient(#ffe33a ${angle}deg, transparent ${angle}deg)`;
+      }
+    }
+    setInterval(draw);
+  </script>
 </body>
 
 </html>

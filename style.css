@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+body {
+  background-image: url(https://pachikuri.jp/wp-content/themes/pachikuri/img/pattern_stripe_gray.png);
+}
+
 a {
   width: 100%;
   padding: 10px;
