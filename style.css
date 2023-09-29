@@ -6,8 +6,10 @@
 }
 
 body {
-  background-image: url(https://pachikuri.jp/wp-content/themes/pachikuri/img/pattern_stripe_gray.png);
+  /* background-image: url(https://pachikuri.jp/wp-content/themes/pachikuri/img/pattern_stripe_gray.png); */
 	animation: anime 2s forwards;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAoCAIAAADyl3S3AAABsklEQVRYCb2X6a6EIAxGef+HLbjiCjeERdqRuUQ6+gfJfOHgaUeDgHhN02SzaxzH+AsaWWLCL6mUMsYk6LZtCBUnXLFA3bYtIY0xSqkIQiNXzFGJtGmaECpOGGOCSNv3PVLQyBsTXNL8HitXE6mc1tqS23EceWMX9R23vlKB+kLf5iUI1OM4UPPEiZTyPM+klysWqF3XRRAa13VNSGstV8xRtdYIFSfDMORIxpjgkub3V7ma6Ps+Phsal2XJH5Q3Ft7DCAjQ932OLLl9HLuhfvatlJJsCwBaYjfUn7r1laLUx9I+ZUC5UohKpJ3nWeP2QQxRtdZ5E5X6tj12UYnbZVlqpD2LBaqU8jiO9KBfpLHEArVdWi7m39Uc9U23fnOOWiONNyaIjWEYclfpnjcWvq++j0oN2XVdajRrbXvsopb6ltetX+2iltzO85w/KEssUNd1TSXMb4hbrpijvunWa3NUFmmpCjWrCS5pnlq5mrj9lgHAvu9p+8YY3lh4D+cdBACkb0vn9sexGyo5NP7i3H5DJW5L5/aWGKWSA3nJbWMMUV9w6xsIUVukkX78/BfklfoD4rRyg2g4f/0AAAAASUVORK5CYII=);
+  
 }
 
 @keyframes anime {
