@@ -7,7 +7,7 @@
 
 body {
   background-image: url(https://pachikuri.jp/wp-content/themes/pachikuri/img/pattern_stripe_gray.png);
-	animation: anime 3s forwards;
+	animation: anime 2s forwards;
 }
 
 @keyframes anime {
