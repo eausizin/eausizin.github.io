@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #444;
+  box-sizing: border-box;
+}
+
+body {
+  animation: animation 1.5s;
+  background-image: url(https://pachikuri.jp/wp-content/themes/pachikuri/img/pattern_stripe_pink.png);
+}
+
+header {
+  top: 0;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+  background-color: #f7f7f7;
+  justify-content: space-between;
+  border-bottom: 5px solid #f6c6d5;
+}
+
+.previous, .next {
+  color: #444;
+  display: block;
+  padding: 0 25px;
+  font-weight: bold;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+.previous:hover, .next:hover {
+  color: #f6c6d5;
+  transition: 0.5s;
+}
+
+.anchor {
+  color:#ddd;
+  pointer-events: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.link {
+  margin: 5px;
+  width: 300px;
+  color: #444;
+  display: flex;
+  padding: 10px;
+  line-height: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0.5px solid #ddd;
+}
+
+.link:hover {
+  background-color: #99d8e6;
+  transition: 0.5s;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-size: cover;
+}
+
+.title {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+footer {
+  margin: 25px;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+}
+
+@keyframes animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
