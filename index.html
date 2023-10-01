@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://pachikuri.jp/wp-content/themes/pachikuri/icon.ico" type="image/x-icon">
+  <meta http-equiv="refresh" content="1.25; url=kuma1.html">
+  <title>Rilakkuma</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(https://pachikuri.jp/wp-content/themes/pachikuri/img/pattern_stripe_gray.png);
+    }
+
+    div {
+      width: 280px;
+      height: 66px;
+      animation: tada 1s;
+      background-image: url(https://pachikuri.jp/wp-content/themes/pachikuri/img/logo.png);
+    }
+
+    @keyframes tada {
+      from { transform: scale3d(1, 1, 1); }
+      10%, 20% { transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
+      30%, 50%, 70%, 90% { transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
+      40%, 60%, 80% { transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
+      to { transform: scale3d(1, 1, 1); }
+    }
+  </style>
+</head>
+
+<body>
+  <a href="kuma1.html">
+    <div></div>
+  </a>
+</body>
+
+</html>
