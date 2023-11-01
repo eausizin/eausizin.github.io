@@ -587,4 +587,12 @@ const $link = [
   "https://pachikuri.jp/4kuma/ストレッチ-2/",
   "https://pachikuri.jp/4kuma/月夜の攻防１/",
   "https://pachikuri.jp/4kuma/月夜の攻防２/",
+  "https://pachikuri.jp/4kuma/カレンダー/",
+  "https://pachikuri.jp/4kuma/走る/",
+  "https://pachikuri.jp/4kuma/読書の秋/",
+  "https://pachikuri.jp/4kuma/おひるねアート/",
+  "https://pachikuri.jp/4kuma/山にて-2/",
+  "https://pachikuri.jp/4kuma/紅-葉-2/",
+  "https://pachikuri.jp/4kuma/イベント/",
+  "https://pachikuri.jp/4kuma/死-守/",
 ];
