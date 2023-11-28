@@ -595,4 +595,12 @@ const $image = [
   "https://pachikuri.jp/wp-content/uploads/2023/09/kuma594T.jpg",
   "https://pachikuri.jp/wp-content/uploads/2023/09/kuma595T.jpg",
   "https://pachikuri.jp/wp-content/uploads/2023/09/kuma596T.jpg",
+  "https://pachikuri.jp/wp-content/uploads/2023/10/kuma597T.jpg",
+  "https://pachikuri.jp/wp-content/uploads/2023/10/kuma598T.jpg",
+  "https://pachikuri.jp/wp-content/uploads/2023/10/kuma599T.jpg",
+  "https://pachikuri.jp/wp-content/uploads/2023/10/kuma560T.jpg",
+  "https://pachikuri.jp/wp-content/uploads/2023/10/kuma561T.jpg",
+  "https://pachikuri.jp/wp-content/uploads/2023/10/kuma562T.jpg",
+  "https://pachikuri.jp/wp-content/uploads/2023/10/kuma563T.jpg",
+  "https://pachikuri.jp/wp-content/uploads/2023/10/kuma564T.jpg",
 ];

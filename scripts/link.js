@@ -595,4 +595,12 @@ const $link = [
   "https://pachikuri.jp/4kuma/紅-葉-2/",
   "https://pachikuri.jp/4kuma/イベント/",
   "https://pachikuri.jp/4kuma/死-守/",
+  "https://pachikuri.jp/4kuma/天気予報-3/",
+  "https://pachikuri.jp/4kuma/26651/",
+  "https://pachikuri.jp/4kuma/衣がえ-3/",
+  "https://pachikuri.jp/4kuma/おさがり/",
+  "https://pachikuri.jp/4kuma/さむくなってきたから/",
+  "https://pachikuri.jp/4kuma/先取り/",
+  "https://pachikuri.jp/4kuma/勤労感謝の日-2/",
+  "https://pachikuri.jp/4kuma/向上心/",
 ];
